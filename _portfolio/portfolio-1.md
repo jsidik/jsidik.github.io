@@ -1,7 +1,11 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "AI-Powered Surgical Instrument Counting System (ECS 193 Senior Design)"
+excerpt: "End-to-end ML system for OR instrument counting — PyTorch, Swift, REST APIs<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+**Tech:** PyTorch, Swift, REST APIs, PostgreSQL, CoreML
+
+* Engineered end-to-end ML system detecting 30+ surgical instrument types, processing 600+ instruments/hour to eliminate counting errors in OR workflows.
+* Built scalable RESTful API backend with PostgreSQL, implementing caching layer to serve 500+ concurrent users at &lt;100ms latency for real-time inference.
+* Developed and published iOS and Android app with CoreML model compression, enabling offline prediction and auto-syncing discrepancy alerts to hospital inventory systems.
